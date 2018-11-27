@@ -1,6 +1,6 @@
-require_relative '../iterator/iterator'
+require_relative '../iterator/book_shelf_iterator'
 
-class BookShelf < Iterator
+class BookShelf < BookShelfIterator
   def initialize
     @books = []
   end
@@ -18,6 +18,6 @@ class BookShelf < Iterator
   end
 
   def iterator
-    Iterator.new(self)
+    BookShelfIterator.new(self)
   end
 end
