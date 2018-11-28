@@ -1,6 +1,6 @@
 require_relative '../iterator/book_shelf_iterator'
 
-class BookShelf < BookShelfIterator
+class BookShelf
   def initialize
     @books = []
   end
