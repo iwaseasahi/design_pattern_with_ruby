@@ -4,10 +4,10 @@ class Banner
   end
 
   def show_with_paren
-    puts '(' + @string + ')'
+    p '(' + @string + ')'
   end
 
   def show_with_aster
-    puts '*' + @string + '*'
+    p '*' + @string + '*'
   end
 end
