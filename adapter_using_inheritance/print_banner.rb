@@ -1,6 +1,9 @@
 require_relative 'banner'
+require_relative 'print'
 
 class PrintBanner < Banner
+  include Print
+
   def initialize(string)
     super(string)
   end
