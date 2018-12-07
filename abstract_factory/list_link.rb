@@ -1,0 +1,3 @@
+class ListLink
+
+end
