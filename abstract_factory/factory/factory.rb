@@ -1,6 +1,7 @@
 class Factory
   class << self
     require_relative '../list_factory/list_factory'
+    require_relative '../table_factory/table_factory'
 
     def get_factory(classname)
       Object.const_get(classname).new
