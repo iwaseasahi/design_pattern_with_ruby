@@ -1,5 +1,4 @@
 require_relative '../factory/link'
-require_relative 'list_link'
 
 class ListLink < Link
   def initialize(caption, url)
