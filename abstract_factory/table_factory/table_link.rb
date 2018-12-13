@@ -6,6 +6,6 @@ class TableLink < Link
   end
 
   def make_html
-    "<td><a href=#{url}>" + caption + '</a></td>'
+    "<td><a href=\"#{url}\">" + caption + '</a></td>'
   end
 end
