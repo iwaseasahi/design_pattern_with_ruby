@@ -1,0 +1,3 @@
+class StringDisplayImpl
+
+end
