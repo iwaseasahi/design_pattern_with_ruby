@@ -1,0 +1,3 @@
+class WinningStrategy
+
+end
