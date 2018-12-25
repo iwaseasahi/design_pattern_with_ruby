@@ -1,0 +1,3 @@
+class FileTreatmentException
+
+end
