@@ -1,3 +1,1 @@
-class FileTreatmentException
-
-end
+class FileTreatmentException < StandardError; end
