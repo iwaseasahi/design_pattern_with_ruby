@@ -1,5 +1,12 @@
 class Memento
+  private_class_method :new
   attr_reader :money
+
+  class << self
+    def create(money)
+      new(money)
+    end
+  end
 
   def initialize(money)
     @money = money

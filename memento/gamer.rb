@@ -31,7 +31,7 @@ class Gamer
   end
 
   def create_memento
-    memento = Memento.new(@money)
+    memento = Memento.create(@money)
     @fruits.each do |fruit|
       memento.add_fruit(fruit) if fruit.include?('おいしい')
     end
